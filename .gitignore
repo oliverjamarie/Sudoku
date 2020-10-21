@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Legacy code (kept locally for reference)
+Legacy/
+
+#Test folder
+Test/
+
+
 # C extensions
 *.so
 
