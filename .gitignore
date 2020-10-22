@@ -6,9 +6,11 @@ __pycache__/
 #Legacy code (kept locally for reference)
 Legacy/
 
-#Test folder
-Test/
+#Ignore Main.py
+Main.py
 
+#Ignore all files starting with 'Test_'
+Test_*
 
 # C extensions
 *.so
