@@ -8,11 +8,11 @@ class Error (Exception):
     
 
 class DifficultyError (Exception):
-    print('Invalid Difficulty')
+    
 
     def __init__(self, difficulty:int, message = "Invalid Difficulty"):
         self.message = message
-
+        print('Invalid Difficulty')
         super().__init__(self.message)
 
 class SolutionOverloadError(Exception):
